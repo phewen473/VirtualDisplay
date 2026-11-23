@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">                                        <!-- standard .NET project -->
+  <PropertyGroup>                                                       <!-- build settings -->
+    <OutputType>WinExe</OutputType>                                     <!-- Windows program, no console window -->
+    <TargetFramework>net10.0-windows</TargetFramework>                  <!-- runs on the .NET 10 Desktop Runtime -->
+    <UseWindowsForms>true</UseWindowsForms>                             <!-- the window is WinForms -->
+    <Nullable>enable</Nullable>                                         <!-- compiler warns about possible nulls -->
+    <ImplicitUsings>enable</ImplicitUsings>                             <!-- System, System.IO, System.Linq, WinForms etc. imported automatically -->
+    <ApplicationHighDpiMode>PerMonitorV2</ApplicationHighDpiMode>       <!-- DPI aware, so monitor sizes are real pixels -->
+    <AssemblyName>VirtualDisplayViewer</AssemblyName>                   <!-- the exe is VirtualDisplayViewer.exe -->
+    <RootNamespace>VirtualDisplayViewer</RootNamespace>                 <!-- code namespace -->
+    <Version>1.0.0</Version>                                            <!-- version 1.0 -->
+    <Product>Virtual Display Viewer 1.0</Product>                       <!-- shown in the exe's Properties > Details -->
+    <Company>P. H. Ewen (KO4WSC)</Company>                              <!-- shown in Properties > Details -->
+    <Copyright>Copyright (c) 2026 P. H. Ewen (KO4WSC). MIT License.</Copyright> <!-- shown in Properties > Details -->
+    <Description>Picture-in-picture viewer for a virtual monitor.</Description> <!-- file description -->
+  </PropertyGroup>                                                      <!-- end of build settings -->
+</Project>                                                              <!-- end of project -->

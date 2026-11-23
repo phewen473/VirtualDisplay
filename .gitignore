@@ -1,0 +1,9 @@
+# Build output that build.bat recreates (the finished app\VirtualDisplayViewer.exe IS kept in Git)
+src/VirtualDisplayViewer/bin/
+src/VirtualDisplayViewer/obj/
+# Personal, machine-specific notes - kept on this PC only, never uploaded
+LOCAL-NOTES.md
+PROJECT-INSTRUCTIONS.txt
+SESSION-NOTES-*.md
+versions/*/PROJECT-INSTRUCTIONS.txt
+versions/*/SESSION-NOTES-*.md
